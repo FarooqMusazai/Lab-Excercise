@@ -1,9 +1,18 @@
 How do you see the files changed within each commit from git log?
-
+To see the files chnages within each commit, what you will have to do is go the git log and type in (git log), this will show all the commits
+and changes made by users. The latest changes will appear the top and whereas the oldest changes will be at the bottom.
+You will be able to see the name of the author, their email address and the date and time when they commited changes. You will also
+see the commit message from the author.;
 
 
 How do you see the contents of what changed within each file from the git log?
-
+To see what content has been changed, we can use (git log --stat). what this will show is not only the commit messages and ref but
+also the files that were involved in the commits and the changes that were made to each file (plus and minus sign will indicate the
+addition and substraction of the content within each file).
+(git log ---patch) will also show the changes that were made by the users).
 
 
 What does HEAD refer to in the context of git? (Not to be confused with the "HEAD<<<<" one observes within merge conflict)
+Head the reference to the last commit and the current check-out branch. Each head will have its own name.
+There is head in every repository and it can contain many heads. by changing brachess the head will automatically point to the tip of the
+new branch.
