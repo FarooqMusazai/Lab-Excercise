@@ -2,7 +2,7 @@ How do you see the files changed within each commit from git log?
 To see the files chnages within each commit, what you will have to do is go the git log and type in (git log), this will show all the commits
 and changes made by users. The latest changes will appear the top and whereas the oldest changes will be at the bottom.
 You will be able to see the name of the author, their email address and the date and time when they commited changes. You will also
-see the commit message from the author.;
+see the commit message from the author.
 
 
 How do you see the contents of what changed within each file from the git log?
